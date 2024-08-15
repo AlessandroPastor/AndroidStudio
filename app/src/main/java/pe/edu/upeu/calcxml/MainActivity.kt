@@ -38,7 +38,7 @@ class MainActivity : AppCompatActivity() {
             R.id.btn9, R.id.btn8, R.id.btn7, R.id.btn6,
             R.id.btn5, R.id.btn4, R.id.btn3, R.id.btn2,
             R.id.btn1, R.id.btnresul, R.id.btndiv, R.id.btnmul,
-            R.id.btnres, R.id.bt0)
+            R.id.btnres, R.id.bt0,R.id.btncoma)
         for (button in listar){
             val buttonx= findViewById<Button>(button)
             buttonx.setOnClickListener { onclickListTener(buttonx) }
